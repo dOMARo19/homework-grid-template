@@ -20,5 +20,8 @@
     "postcss-discard-comments": "^6.0.2",
     "sass": "^1.75.0",
     "sort-css-media-queries": "^2.2.0"
+  },
+  "dependencies": {
+    "caniuse-lite": "^1.0.30001690"
   }
 }

@@ -89,12 +89,12 @@ button,
 select {
   text-transform: none;
 }
-button,
+ button,
 [type=button],
 [type=reset],
 [type=submit] {
-  -webkit-appearance: button;
-}
+   -webkit-appearance: button; 
+} 
 button::-moz-focus-inner,
 [type=button]::-moz-focus-inner,
 [type=reset]::-moz-focus-inner,
@@ -143,7 +143,7 @@ textarea {
 [type=search] {
   outline-offset: -2px;
 
-  -webkit-appearance: textfield;
+  /* -webkit-appearance: textfield; */
 }
 [type=search]::-webkit-search-decoration {
   -webkit-appearance: none;
@@ -556,6 +556,9 @@ a {
 
     -webkit-box-shadow: -3px 3px 20px -10px black;
             box-shadow: -3px 3px 20px -10px black;
+  }
+  .header-navbar__list.active {
+    display: block;
   }
   .header-navbar__list::before {
     position: absolute;
