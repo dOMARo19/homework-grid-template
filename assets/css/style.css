@@ -939,6 +939,9 @@ a{
     -webkit-box-shadow:-3px 3px 20px -10px #000000;
             box-shadow:-3px 3px 20px -10px #000000;
   }
+  .header-navbar__list.active {
+    display: block;
+  }
   .header-navbar__list::before{
     position:absolute;
     z-index:-1;
